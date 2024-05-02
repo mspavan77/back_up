@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-01 10:52:55.734 UTC</timestamp>
+  <md5sum>6b9ed1b5762df1c09a5643ce9e92ec39</md5sum>
+  <fileName>Credential id=786 name=ubuntu (jenkins)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714636345010</timestamp>
+      <nodeName>pavan</nodeName>
+      <timestamp0>1714635505085</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

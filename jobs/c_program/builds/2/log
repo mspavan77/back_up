@@ -1,0 +1,24 @@
+Started by user [8mha:////4IxII4s+cdzqFfJfdBCpix70dIUSNzojaiHSGrpyOgr8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZ+/dLi1CL9AqBBebnF5uYAHuVl+sQAAAA=[0mpavan ms
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mspavan77/test.git # timeout=10
+Fetching upstream changes from https://github.com/mspavan77/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/mspavan77/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ece223d7940ff2861901c40e3956a890f47e2755 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ece223d7940ff2861901c40e3956a890f47e2755 # timeout=10
+Commit message: "edited from source_code"
+ > git rev-list --no-walk ece223d7940ff2861901c40e3956a890f47e2755 # timeout=10
+[c_program] $ /bin/sh -xe /tmp/jenkins18235991164353139938.sh
++ cd /var/lib/jenkins/workspace/c_program
++ make XYZ.exe
+/tmp/jenkins18235991164353139938.sh: 3: make: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
